@@ -22,7 +22,7 @@ public class CryptoChatApp {
         String pubKeyRecipStr;
         int serverPort = 9999;
         String serverAddr = "127.0.0.1";
-        String fileName = "C:\\Users\\Crezi\\Desktop\\CodDe\\Java\\Sockets\\" +
+        String fileName = "*\\Java\\Sockets\\" +
                 "CryptoChatClient\\src\\main\\resources\\pubKey";
 
         try (Socket socket = new Socket(serverAddr, serverPort);
